@@ -1,0 +1,144 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="grid.css" >
+    <script src="https://kit.fontawesome.com/ffe8c54546.js" crossorigin="anonymous"></script>
+    <title>Contact Us</title>
+</head>
+<body>
+    <section class="container-contact-page">
+        
+        <section class="hero-section">
+            <header> 
+                <div class="nav-logo-container">
+                    <div class="nav-logo-section">
+                        <a href="index.html" class="logo">GREENER LAWNS AND PAVING</a>
+            
+                        <nav id="top-nav">
+                            <ul class="nav-menu">
+                                <li class="nav-item"><a href="index.html">Home</a></li>
+                                <li class="nav-item-services">Services
+                                    <ul class="menu-dropdown" aria-label="submenu">
+                                        <li><a href="#">Artifical Grass</a></li>
+                                        <li><a href="pavingservice.html">Paving</a></li>
+                                        <li><a href="#">Timber Beds</a></li>
+                                        <li><a href="#">Driveways</a></li>
+                                        <li><a href="#">Fencing</a></li>
+                                    </ul>
+                                <li class="nav-item"><a href="#gallery">Gallery</a></li>                               
+                                <li class="nav-item"><a class="cta active" href="#"><button class="menu-cta-btn">Contact</button></a></li>
+                            </ul> 
+                            
+                            <!-- Code for hamburger menu hidden on larger devices -->
+                            <div class="menu-hamburger">
+                                <span class="ham-bar"></span>
+                                <span class="ham-bar"></span>
+                                <span class="ham-bar"></span>
+                            </div>
+                        </nav> 
+                    </div> 
+                </div>
+                
+                
+                <div class="hero-banner">
+                    <div class="hero-heading">Contact Us</div>                  
+                </div>
+            </header>
+        </section>
+
+        
+        <section id="contact-section">
+            <div class="contact-container">
+                <p>Fill out the form below to get in touch about any work you would like us
+                    to quote on and we will get back to you ASAP.</p>
+
+                <form class="contact-form" action="https://formsubmit.co/cabuk79@googlemail.com" method="POST">
+                    <!-- Honeypot -->
+                    <input type="text" name="_honey" style="display: none;">
+                    <!-- Disable captcha -->
+                    <input type="hidden" name="_captcha" value="false">
+
+                    <div class="contact-form-group">
+                        <label for="name">First Name*</label>
+                        <input
+                            type="text"
+                            name="name"
+                            id="name"
+                            required 
+                            class="form-element"
+                            placeholder="Craig" />
+                    </div>
+                    <div class="contact-form-group">
+                        <label for="email">Email Address*</label>
+                        <input
+                            type="email"
+                            name="email"
+                            id="email"
+                            required 
+                            class="form-element"
+                            placeholder="craig.doe@example.com" />
+                    </div>
+                    <div class="contact-form-group">
+                        <label for="message">What is your enquiry?*</label>
+                        <textarea
+                            name="message"
+                            id="message"
+                            required 
+                            class="form-element"
+                            placeholder="I want a new patio....."></textarea>
+                    </div>                    
+                    <div class="submit-group">
+                        <input type="submit" value="SUBMIT MESSAGE" />
+                    </div>
+
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/emailsuccess.html">
+                </form>
+            </div>
+        </section>
+
+
+
+
+        <footer>
+            <div class="footer-container">
+                <div class="footer-main">
+                    <div class="footer-general-info">
+                        <h3 class="footer-heading">GREENER LAWNS AND PAVING</h3>
+                        <p class="footer-general-p">Professionl, reliable 
+                            and hard working family team.
+                            <br />
+                            We pride ourselves on our quality of work.</p>
+                    </div>
+                    <div class="footer-menu">
+                        <h3 class="footer-heading">Menu</h3>                     
+                        <a href="index.html" class="footer-link">Home</a>
+                        <a href="#" class="footer-link">Services</a>
+                        <a href="#" class="footer-link">Gallery</a>
+                        <a href="#" class="footer-link">Testamonials</a> 
+                        <a href="contact.html" class="footer-link">Contact</a>                                                       
+                    </div>
+                    <div class="footer-contact">                            
+                        <h3 class="footer-heading">Contact Us</h3>
+                        <p><i class="fa fa-phone"></i> +44 1282 709819</p>
+                        <p><i class="fa fa-envelope"></i> someone@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <span class="copyright">&copy; 2022 Greener Lawns</span>
+                    <a href="#" class="footer-social"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="footer-social"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="footer-social"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </footer>
+        
+
+        
+
+    </section>
+        <script src="script.js"></script>
+</body>
+</html>

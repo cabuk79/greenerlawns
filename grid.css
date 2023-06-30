@@ -416,7 +416,7 @@ margin-bottom: 20px;
 }
 
 .contact-container p {
-    font-size: 18px;
+    font-size: 0.8em;
     line-height: 1.5;
     margin-bottom: 32px;
 }
@@ -465,6 +465,12 @@ margin-bottom: 20px;
     cursor: pointer;
 }
 
+.face-book-message-link {
+    text-decoration: underline;
+    color: rgba(85, 125, 70, 0.8);
+    font-weight: 900;
+}
+
 /* CONTACT US PAGE START */
 
 /* EMAIL SUCCESS PAGE START */
@@ -474,9 +480,9 @@ margin-bottom: 20px;
     max-height: 200px;  
 }
 
-#success-info-container {
+/* #success-info-container {
     min-height: 5000px;
-}
+} */
 
 .success-info-section {
     max-width: 1280px;
@@ -560,8 +566,18 @@ footer a:hover {
     flex-grow: 1;
     text-align: center;
     padding: 0 20px;
-
 }
+
+.footer-contact > p {
+    margin-top: 10px;
+}
+
+.face-book-message-link-footer {
+    text-decoration: underline;
+    color: #fff;
+    font-weight: normal;
+}
+
 
 .footer-menu {
     flex-basis: 200px;
@@ -569,6 +585,7 @@ footer a:hover {
     text-align: center;
     border-right: 2px solid rgba(100, 128, 90, 0.4);
     padding: 0 20px;
+    font-size: 14px;
 }
 
 .footer-link {
@@ -854,7 +871,7 @@ footer a:hover {
         position: fixed;
         display: flex;
         left: -100%;
-        top: 50px;
+        top: 70px;
         gap: 0;
         flex-direction: column;
         background-color: #fff;

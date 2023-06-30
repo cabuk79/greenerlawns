@@ -12,7 +12,7 @@
 }
 
 .hero-banner {
-    --bg-image: url('Gemma/Images/gemma.png');
+    --bg-image:  url('Gemma/Images/Gallery/gallery8.jpg'); /* url('Gemma/Images/gemma.png'); */
     --bg-image-opacity: 0.6;
 
     margin: 0 auto;

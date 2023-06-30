@@ -389,14 +389,6 @@ margin-bottom: 20px;
     margin: 0;
 }
 
-
-
-
-
-
-
-
-
 .testa-person-rate {
     display: flex;
     flex-direction: row;
@@ -805,6 +797,8 @@ footer a:hover {
     .image-gallery-container {
         width: 100%;
     }
+
+
 }
 
 @media only screen and (max-width: 1180px){
@@ -957,18 +951,83 @@ footer a:hover {
 }
 
 
-@media only screen and (max-width: 670px){   
+@media only screen and (max-width: 670px){ 
+    
+    .logo {
+        font-size: 0.5em;
+        margin-right: auto;
+    }
+
+    .hero-heading {
+        font-size: 1.5em;   
+        font-weight: bold;
+        color: #fff;
+        padding-top: 2em;
+        padding-left: 0.8em;
+        padding-right: 0.8em;
+        max-width: 1200px       
+    }
+    
+    .hero-sub-heading {
+        font-size: 0.6em;
+        margin-top: 10px;
+        margin-right: 10%;  
+        margin-left: 10%;
+    }
+
+    .hero-cta-btn button {
+        padding: 17px;
+        border-radius: 5px;
+        width: 150px;
+    }
+    
+    .hero-msg-btn button {
+        padding: 15px;
+        border-radius: 5px;
+        width: 150px;
+    }
+    
+    .services-card {
+        width: 250px;
+        margin: 10px auto;
+    }
+
+    .services-card p {
+        font-size: 0.6em;
+        text-align: center;
+        height: 50px;
+    }
+    
+    .services-card img {
+        width: 60px;
+        height: 60px;   
+        display: block;
+        margin: 15px auto;
+    }
+
+    .card-testa-quotemark {
+        font-size: 0.8em;
+    }
+
+    .testamonial > blockquote {
+        font-size: 0.6em;
+    }
+
+    .test-name {
+        font-size: 0.6em;
+    }
+
     .paving-service-ul {
         display: flex;
         list-style-type: none;
         flex-direction: column;
-        margin-top: 20px;
+        margin-top: 15px;
     }
     
     .paving-service-li {
         display: flex;
         flex-direction: column;
-        margin-bottom: 10px;
+        margin-bottom: 5px;       
         padding: 10px;  
         overflow: auto;  
     }
@@ -976,6 +1035,6 @@ footer a:hover {
     .paving-service-li img {        
         margin: 0 15px 0 0;
         width: 100%;
-        object-fit: cover;
+        object-fit: contain;
     }
 }

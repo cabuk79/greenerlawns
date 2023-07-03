@@ -7,6 +7,16 @@ menuHamburger.addEventListener('click', () => {
 })
 
 
+const menu_links = Array.from(document.querySelectorAll('.nav-menu a'));
+
+menu_links.forEach(link => {
+  link.addEventListener('click', function () {
+      menuHamburger.classList.remove('active');
+      navMenu.classList.remove('active');
+  });
+})
+
+
 
 
 let slideIndex = 1;

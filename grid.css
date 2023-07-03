@@ -319,13 +319,7 @@ li, a, button {
     display: block;
     width: 250px;
     height: 250px;
-    margin-top: 10px;
     object-fit: cover;
-    
-    /* flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px; */
-
 }
 
 .gallery-heading {
@@ -340,7 +334,7 @@ li, a, button {
 
 #testamonials {
     padding: 60px 0;
-    background: #f1f1f1;
+    /* background: #f1f1f1; */
     color: #434343;
     text-align: center;
 }
@@ -368,6 +362,7 @@ li, a, button {
 .testamonial {
     background: #fff;
     padding: 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .test-name {
@@ -437,6 +432,19 @@ margin-bottom: 20px;
     font-size: 14px;
 }
 
+#message {
+    font-size: 1em;
+    height: 150px;
+}
+
+#email {
+    font-size: 1em;
+}
+
+#name {
+    font-size: 1em;
+}
+
 .contact-form-group .form-element {
     appearance: none;
     outline: none;
@@ -465,10 +473,18 @@ margin-bottom: 20px;
     cursor: pointer;
 }
 
+.submit-group:hover input[type="submit"]{    
+    background-color: rgba(85, 125, 70, 1);
+}
+
 .face-book-message-link {
     text-decoration: underline;
     color: rgba(85, 125, 70, 0.8);
     font-weight: 900;
+}
+
+.face-book-message-link:hover {
+    color: rgba(85, 125, 70, 1);
 }
 
 /* CONTACT US PAGE START */
